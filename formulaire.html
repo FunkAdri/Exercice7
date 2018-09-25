@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="formulaire.css">
   </head>
   <body>
-    <ul>
-      <p><mark>Votre identité</mark></p>
-    </ul>
+<!--Première partie de formulaire-->
+      <mark>Votre identité</mark><br>
     <div class="rectangle">
     <ul>
     <form method="post" action="traitement.php">
@@ -23,9 +22,8 @@
         placeholder="Adresse mail"></li>
     </ul>
     </div>
-    <ul>
-      <p>Adresse de livraison</p>
-    </ul>
+<!--Deuxième partie de formulaire-->
+      Adresse de livraison <br>
     <div class="rectangle2">
     <ul>
       <form method="post" action="traitement.php">
@@ -40,6 +38,13 @@
         <input type="text" name="Ville" id="Ville" placeholder="Ville"></li>
     </ul>
     </div>
+<!--Troisième partie de formulaire-->
+      Information de réglement <br>
+      <form method="post" action="traitement.php">
+        <input type="radio" name="Type de carte" value="Visa" id="Visa">
+            <label for="Type de carte"> Visa </label><br>
+            <input type="radio" name="Type de carte" value="Master" id="Master">
+            <label for="Type de carte"> Master </label>
     </form>
   </body>
 </html>
