@@ -7,9 +7,8 @@
   </head>
   <body>
 <!--Première partie de formulaire-->
-      <mark>Votre identité</mark><br>
-  <div class="border">
-    <div class="rectangle">
+      <fieldset class="blue">
+        <legend id="blue">Votre identité</legend>
     <ul>
     <form method="post" action="traitement.php">
       <li><label for="Nom">Nom : </label>
@@ -22,11 +21,11 @@
       <input type="text" name="Adresse mail" id="Adresse mail"
         placeholder="Adresse mail"></li>
     </ul>
-    </div>
-  </div>
+  </fieldset>
+
 <!--Deuxième partie de formulaire-->
       Adresse de livraison <br>
-  <div class="border">
+
     <div class="rectangle2">
     <ul>
       <form method="post" action="traitement.php">
@@ -41,10 +40,9 @@
         <input type="text" name="Ville" id="Ville" placeholder="Ville"></li>
     </ul>
     </div>
-  </div>
+
 <!--Troisième partie de formulaire-->
       Information de réglement <br>
-    <div class="border">
       <div class=rectangle3>
       <ul>
       <form method="post" action="traitement.php">
@@ -67,7 +65,6 @@
           placeholder="Nom du titulaire"></li>
       </ul>
     </div>
-  </div>
     </form>
     <form action="#">
       <button type="button">J'achète !</button>

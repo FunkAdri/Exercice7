@@ -1,27 +1,23 @@
-mark
-{
+#blue {
   background-color: #2574a9;
-  color: black;
 }
-.rectangle {
-  float: left;
-  width: 100%;
-  height: 125px;
-  background: #2574a9;
+
+.blue {
+  background-color: #2574a9;
 }
-.rectangle2 {
-  float: left;
-  width: 100%;
-  height: 250px;
-  background: #9a12b3
+
+#violet {
+  background-color: #9a12b3
 }
-.rectangle3 {
-  float: left;
-  width: 100%;
-  height: 180px;
-  background: #db0a5b
+
+.violet {
+  background-color: #9a12b3
 }
-.border {
-  border-top: 3px #b1b1b1 double;
-  border-left: 3px #b1b1b1 double;
-}
+
+#rose {
+  background-color: #db0a5b
+  }
+
+.rose {
+  background-color: #db0a5b
+  }
