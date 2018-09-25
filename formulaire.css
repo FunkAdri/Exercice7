@@ -6,6 +6,18 @@ mark
 .rectangle {
   float: left;
   width: 100%;
-  height: 100px;
+  height: 125px;
   background: #2574a9;
+}
+.rectangle2 {
+  float: left;
+  width: 100%;
+  height: 250px;
+  background: #9a12b3
+}
+.rectangle3 {
+  float: left;
+  width: 100%;
+  height: 250px;
+  background: #db0a5b
 }
