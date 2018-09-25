@@ -1,0 +1,11 @@
+mark
+{
+  background-color: #2574a9;
+  color: black;
+}
+.rectangle {
+  float: left;
+  width: 100%;
+  height: 100px;
+  background: #2574a9;
+}
