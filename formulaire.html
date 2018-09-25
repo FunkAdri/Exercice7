@@ -24,9 +24,8 @@
   </fieldset>
 
 <!--Deuxième partie de formulaire-->
-      Adresse de livraison <br>
-
-    <div class="rectangle2">
+      <fieldset class="violet">
+        <legend id="violet">Adresse de livraison</legend>
     <ul>
       <form method="post" action="traitement.php">
         <li><label for="Adresse">Adresse : </label>
@@ -39,11 +38,11 @@
         <li><label for="Ville">Ville : </label>
         <input type="text" name="Ville" id="Ville" placeholder="Ville"></li>
     </ul>
-    </div>
+  </fieldset>
 
 <!--Troisième partie de formulaire-->
-      Information de réglement <br>
-      <div class=rectangle3>
+        <fieldset class="rose">
+          <legend id="rose">Information de réglement</legend>
       <ul>
       <form method="post" action="traitement.php">
         <li>Type de carte bancaire :<br>
@@ -64,7 +63,7 @@
         <input type="text" name="Nom du titulaire" id="Nom du titulaire"
           placeholder="Nom du titulaire"></li>
       </ul>
-    </div>
+    </fieldset>
     </form>
     <form action="#">
       <button type="button">J'achète !</button>
