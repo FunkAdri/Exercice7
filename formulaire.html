@@ -40,11 +40,25 @@
     </div>
 <!--Troisième partie de formulaire-->
       Information de réglement <br>
+      <ul>
       <form method="post" action="traitement.php">
         <input type="radio" name="Type de carte" value="Visa" id="Visa">
             <label for="Type de carte"> Visa </label><br>
             <input type="radio" name="Type de carte" value="Master" id="Master">
             <label for="Type de carte"> Master </label>
+
+        <li><label for="Numéro de carte">Numéro de carte : </label>
+        <input type="text" name="Numéro de carte" id="Numéro de carte"
+          placeholder="Numéro de carte"></li>
+
+        <li><label for="Code de sécurité">Code de sécurité : </label>
+        <input type="text" name="Code de sécurité" id="Code de sécurité"
+          placeholder="Code de sécurité"></li>
+
+        <li><label for="Nom du titulaire">Nom du titulaire : </label>
+        <input type="text" name="Nom du titulaire" id="Nom du titulaire"
+          placeholder="Nom du titulaire"></li>
+      </ul>
     </form>
   </body>
 </html>
